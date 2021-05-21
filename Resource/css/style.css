@@ -138,11 +138,14 @@ a {
 }
 
 .section-cause h2,
-#section-cover h2,
 .section-symptoms h2,
 .section-effect h2,
 .section-solution h2 {
   border-color: #00ff19;
+}
+
+#section-cover h2 {
+  border-color: #4fc6fc;
 }
 
 #section-cover h2:hover,
@@ -459,6 +462,26 @@ nav {
       rgba(255, 255, 255, 0.75),
       rgba(255, 255, 255, 1)
     ),
+    linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
     url(img/cover.jpg);
   background-size: cover;
   background-position: right;
@@ -472,7 +495,7 @@ nav {
   width: fit-content;
   padding: 10.5px 40px;
   color: #000;
-  background-color: #00ff19;
+  background-color: #4fc6fc;
   border-radius: 200px;
   text-align: center;
   transition: all 0.3s;
